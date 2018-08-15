@@ -1,0 +1,10 @@
+.dotfiles
+.bash_history
+.bash_logout
+.zsh_history
+.zsh_save
+.config/chromium/*
+.config/session/*
+.config/pulse/*
+
+
