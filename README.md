@@ -68,7 +68,7 @@ echo ".dotfiles" >> .dotfilesignore
 
 Now clone your Dotfiles repository into a bare repository in the `.dotfiles` dot folder of your `$HOME`:
 ~~~ bash
-git clone --bare <git-repo-url> $HOME/.dotfiles
+git clone --bare --recurse-submodules <git-repo-url> $HOME/.dotfiles
 ~~~
 
 Define the alias in the current shell scope:
